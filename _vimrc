@@ -8,7 +8,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdtree'
 Plug 'derekwyatt/vim-fswitch'
 Plug 'Yggdroot/indentLine'
-Plug 'itchyny/landscape.vim'
+Plug 'tomasr/molokai'
 call plug#end()
 
 " ----- General -----
@@ -49,11 +49,12 @@ set mouse=a                         " allow mouse drag on window borders
 
 " ----- Color Scheme -----
 " set background=dark               " dark mode
-colorscheme landscape               " set theme
-"
+colorscheme molokai                 " set theme
+
+" ----- GUI font -----
+set guifont=Source_Code_Pro_medium:h14:W500:cANSI:qDRAFT
 
 " ----- Simplified Build system -----
-
 " Ensure the buffer for building code opens in a new view
 set switchbuf=useopen,split
  
