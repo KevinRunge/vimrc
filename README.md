@@ -1,0 +1,2 @@
+# vimrc
+vim resource file
