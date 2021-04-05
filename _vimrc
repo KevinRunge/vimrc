@@ -9,6 +9,9 @@ Plug 'preservim/nerdtree'
 Plug 'derekwyatt/vim-fswitch'
 Plug 'Yggdroot/indentLine'
 Plug 'tomasr/molokai'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'ackyshake/VimCompletesMe'
 call plug#end()
 
 " ----- General -----
