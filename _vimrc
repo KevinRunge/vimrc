@@ -12,6 +12,7 @@ Plug 'tomasr/molokai'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'ackyshake/VimCompletesMe'
+Plug 'shanzi/autoheader'
 call plug#end()
 
 " ----- General -----
@@ -79,6 +80,9 @@ function! DoBuildBatchFile()
     echo 'Build Complete'
 endfunction
 
+" ---- AutoHeader ---- 
+" Uses a customized version of AutoHeader which adds a copyright notice
+let g:autoHEADER_default_author="Kevin Runge"
 
 " ---- Key bindings -----
 " let g:AutoPairsShortcutToggle = '<C-P>'  TODO - good key binding
